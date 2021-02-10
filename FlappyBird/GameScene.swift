@@ -34,7 +34,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         physicsWorld.contactDelegate = self
         
         // 背景色を設定
-        backgroundColor = UIColor(red: 0.15, green: 0.75, blue: 0.90, alpha: 1)
+        backgroundColor = UIColor(red: 0.15, green: 0.5, blue: 0.90, alpha: 1)
         
         // スクロールするスプライトの親ノード
         scrollNode = SKNode()
